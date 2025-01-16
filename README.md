@@ -70,7 +70,7 @@ The repository is organized as follows:
 * The folder data/images/ contains image links to the generated images that are hosted on ImageKit.
 * The folder data/prompts/ contains the (pre-processed) biblical text used to generate images. 
 * All the code are in the folder ./src/.
-* The models used for evaluation of generated images can be found in the directory of ./models/ 
+* The models used to evaluate generated images are available upon request. 
  
 ### Requirements
 To access and work with this data, you will need the following:
@@ -79,7 +79,7 @@ To access and work with this data, you will need the following:
 * Pandas (for CSV file handling)
 * PIL or OpenCV (for image handling)
 * analyzeppl for analysis
-* imprt the imagekit before image processing as follows:
+* import the imagekit before image processing as follows:
 ```python 
     from imagekitio import ImageKit
 ```
@@ -89,10 +89,10 @@ Install the dependencies with:
     pip install imagekitio
 ```
 ### Accessing Data
-The set of images are named Visio Divina Dataset (VVD). There are multiple ways one can access the data. 
+The set of images is named Visio Divina Dataset (VVD). There are multiple ways one can access the data. 
 
 #### 1. Download the entire dataset.
-The dataset can be downloaded directly from the DANS SSH Data station  To make sure the sciprt runs correctly, you need to unzip the images and put them under the directory ./data/images/ folder. 
+The dataset can be downloaded directly from the DANS SSH Data station  To make sure the script runs correctly, you need to unzip the images and put them under the directory ./data/images/ folder. 
 
 #### 2. Browsing the dataset on the ImageKit online
 The images are hosted on ImageKit and can be viewed directly on ImageKit by following the [link](https://imagekit.io/public/share/seeingthewords/17368c1b7d6a64ee236504ab0640570889752289e8b62dea37c6af47760bbea9defe396aa562589a45decb498b7e19800eb928a6a5c41b02aa59ac87b2c6f2b3963916aa15fd66d9b5fe0e6f46a31916/media-library/L2RhdGE).
@@ -156,7 +156,7 @@ You can download the code, data, intermediate results, selected samples for manu
 
 ### License 
 
-The code and results included in this repository can be used for free to generate images and perform further analysis. All that has been included in this repository are released under the GNU GPL v3  license. 
+The code and results included in this repository can be used for free to generate images and perform further analysis. All that has been included in this repository is released under the GNU GPL v3 license. 
 
 ### Contact 
 - Prof. Willem van Peursen: [e-mail](mailto:w.t.van.peursen@vu.nl), [VU Research portal](https://research.vu.nl/en/persons/willem-van-peursen) (the main researcher).
