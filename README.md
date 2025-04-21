@@ -73,6 +73,8 @@ The repository is organized as follows:
 * The folder data/prompts/ contains the (pre-processed) biblical text used to generate images. 
 * All the code are in the folder ./src/.
 * The models used to evaluate generated images are available upon request. 
+
+The mathematical formulas for computing the metrics are included in the thesis (Appendix D).
  
 ### Requirements
 To access and work with this data, you will need the following:
