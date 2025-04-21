@@ -2,6 +2,8 @@
 
 # Seeing the Words 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14674002.svg)](https://doi.org/10.5281/zenodo.14674002)
+
 ## Table of Contents
 
 - Introduction
